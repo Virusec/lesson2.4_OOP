@@ -29,12 +29,12 @@ public class Flightless extends Bird {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Еда!!!");
     }
 
     @Override
     public void move() {
-        super.move();
+        System.out.println("Перемещаемся!");
     }
 
     @Override

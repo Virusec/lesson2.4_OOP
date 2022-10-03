@@ -28,12 +28,12 @@ public class Amphibians extends Animals {
 
     @Override
     public void eat() {
-
+        System.out.println("Время подкрепиться!");
     }
 
     @Override
     public void move() {
-
+        System.out.println("Двигаемся!");
     }
 
     @Override

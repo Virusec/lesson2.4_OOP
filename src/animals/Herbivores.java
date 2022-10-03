@@ -33,12 +33,12 @@ public class Herbivores extends Mammals {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Кушаем травку!");
     }
 
     @Override
     public void move() {
-        super.move();
+        System.out.println("Двигаемся!");
     }
 
     @Override

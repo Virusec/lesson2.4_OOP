@@ -33,12 +33,12 @@ public class Predators extends Mammals {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Мясо!!!");
     }
 
     @Override
     public void move() {
-        super.move();
+        System.out.println("Перемещаемся!");
     }
 
     @Override

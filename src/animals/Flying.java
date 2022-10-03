@@ -29,12 +29,12 @@ public class Flying extends Bird {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Кушаем!");
     }
 
     @Override
     public void move() {
-        super.move();
+        System.out.println("Летим!");
     }
 
     @Override
